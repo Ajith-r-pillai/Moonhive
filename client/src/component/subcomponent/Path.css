@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+.path_data{
+    width: 100%;
+    padding: 11px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    box-shadow: 0px 2px 5px 0px #bebebe;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+.path_data::before{
+    content: '';
+    position: absolute;
+    width: 94%;
+    height: 7px;
+    background: #ffffff;
+    box-shadow: 0px 2px 5px 0px #bebebe;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    bottom: -9px;
+    left: 1rem;
+    z-index: 5;
+}
+.path_data img{
+    width: 2.8rem;
+    height: 2.4rem;
+    border-radius: 6px;
+}
+.path_data ul{
+    margin-left: 1rem;
+}
+.path_data ul li{
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 450;
+}
+.path_data p{
+    margin-left: auto;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 18px;
+}

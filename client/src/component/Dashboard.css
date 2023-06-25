@@ -1,0 +1,334 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+.dashboard_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f5f7fa;
+    margin-bottom: 2px;
+}
+.updation_bar{
+    width: 75%;
+    height: 3rem;
+    border-left: 4px solid #ed174d;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0.8px 2px 0px rgba(0,0,0,0.75);
+    margin-top: 3rem;
+    background: #fff;
+}
+.updation_bar p{
+    margin-left: 2rem;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #3a3636;
+}
+.updation_bar p i{
+    color: gray;
+    margin-right: 1rem;
+}
+.updation_bar p span{
+    color: black;
+}
+.updation_bar p:nth-child(2){
+    margin-left: auto;
+    margin-right: 1rem;
+    color: gray;
+}
+.cource_chart_box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+}
+.chart_1,.chart_2{
+    width: 49%;
+    position: relative;
+}
+.chart_head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 12px 7px 12px 17px;
+}
+.chart_head h4{
+    color: #ed174d;
+    font-size: 37px;
+    font-family: Barlow;
+}
+.chart_head ul{
+    margin-left: 1rem;
+}
+.chart_head ul li{
+    list-style: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.chart_head ul li:nth-child(2){
+    color: gray;
+    font-size: 15px;
+}
+.chart_head p{
+    margin-left: auto;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 1rem;
+    color: gray;
+}
+.chart_head p i{
+    margin-left: .2rem;
+    font-size: 12px;
+}
+.chart_1 img{
+    width: 100%;
+    height: 25rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #bebebe;
+}
+.chart_2 img{
+    width: 100%;
+    height: 10rem;
+    box-shadow: 0px 2px 5px 0px #bebebe;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.chart_2 img:nth-child(3){
+    width: 100%;
+    height: 15rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.chart_1 .chart_head,
+.chart_2 .chart_head{
+    box-shadow: 0px 2px 5px 0px #bebebe;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/* pat cource */
+
+.path_cource_section{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.path_box{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+
+}
+.path_head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.path_head p{
+    font-family: oswald;
+    font-size: 23px;
+    font-weight: 600;
+    color: #252525;
+}
+.path_head a{
+    color: gray;
+    font-family: sans-serif;
+}
+.arrow2{
+    width: 2.7rem;
+    height: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -19px;
+    top: 45%;
+    background: #fff;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.arrow3{
+    width: 2.7rem;
+    height: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -19px;
+    top: 75%;
+    background: #fff;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+/* Discuss */
+.discussion_box{
+    width: 100%;
+    padding: 3rem 0 4rem 0;
+    background: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dis_header{
+    font-size: 22px;
+    margin-right: auto;
+    margin-left: 12rem;
+    font-family: fantasy;
+    margin-bottom: 1rem;
+    color: #000000c9;
+}
+.dash_discussion{
+    width: 75%;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e8e8e8;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+.top_box{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 13px;
+}
+.top_box .searchbox{
+    margin-right: auto;
+    position: relative;
+}
+.searchbox input{
+    width: 250px;
+    height: 2rem;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    color: #a7a7a7;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.searchbox input::placeholder{
+    color: #a7a7a7;
+}
+.searchbox .fa-magnifying-glass{
+    position: absolute;
+    right: 1rem;
+    top: 8px;
+    color: #a7a7a7;
+}
+.topbox_topic{
+    margin-right: 1.3rem;
+    color: #a7a7a7;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.topbox_topic .fa-caret-down{
+    color: #999999;
+}
+.ask_button_dash{
+    width: 142px;
+    height: 2rem;
+    font-size: 16px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 3px;
+    /* background:#ff0044; */
+    background:transparent;
+    color: rgb(158, 158, 158);
+    cursor: pointer;
+}
+.discussion_brake{
+    border: .1px solid #00000012;
+}
+.dis_question{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+}
+.qu_user{
+    width: 23.8%;
+    /* border: 1px solid blue; */
+    display: flex;
+    position: relative;
+}
+.qu_user .qu_user_icon{
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 50%;
+}
+.qu_time,.qu_name{
+    position: absolute;
+    left: 4.1rem;
+    font-family: sans-serif;
+}
+.qu_time{
+    top: .7rem;
+    color: #a7a7a7;
+    font-size: 16px;
+}
+.qu_name{
+    top: 2.3rem;
+    color: #252525;
+    font-size: 17px;
+    
+}
+.user_question{
+    width: 70%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.user_question p{
+    font-size: 16.5px;
+    font-family: sans-serif;
+}
+.file_priview{
+    width: 208px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0000007a;
+    border-radius: 80px;
+    padding: 0 10px;
+    font-size: 15px !important;
+    color: #a7a7a7;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.answer_list{
+    width: 10%;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+.answer_count{
+    font-size: 15px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.answer_count span{
+    font-weight: 100;
+    font-size: 12px;
+    color: #8b8b8b;
+    font-family: sans-serif;
+}
+.view_discussion_dash{
+    text-align: center;
+    color: #a7a7a7;
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
