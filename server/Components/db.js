@@ -17,7 +17,7 @@ const registration=mongoose.model('registration',{
 const question=mongoose.model('question',{
     id:String,
     name:String,
-    question:String,
+    question:String ,
     img:String,
     date:String
     

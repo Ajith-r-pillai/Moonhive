@@ -28,7 +28,7 @@ server.get('/getdata/:id',(req,res)=>{
 })
 
 server.post('/edituser',(req,res)=>{
-    backend.edituser(req.body.id,req.body.name,req.body.email,req.body.prof,req.body.contact,req.body.password,req.body.day).then(result=>{
+    backend.edituser(req.body.id,req.body.uname,req.body.uemail,req.body.Uprof,req.body.Ucontact,req.body.Upassword,req.body.Uimg).then(result=>{
         res.status(result.statusCode).json(result)
     })
 })

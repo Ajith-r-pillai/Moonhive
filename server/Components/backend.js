@@ -65,7 +65,7 @@ const getuser = (id)=>{
     })
 }
 
-const edituser = (id, name, email, prof, contact,password,day)=> {
+const edituser = (id, name, email, prof, contact,password,Uimg)=> {
     return db.registration.findOne({user_id:id}).then(result => {
         if (result) {
             result.user_id = id
@@ -74,8 +74,7 @@ const edituser = (id, name, email, prof, contact,password,day)=> {
             result.user_profession = prof
             result.user_contact = contact
             result.user_password = password
-            result.user_date = day
-
+            result.user_profile=Uimg
             result.save()
             return {
                 statusCode: 200,
