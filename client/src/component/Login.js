@@ -60,13 +60,13 @@ function Login() {
             <div class="line"></div>
             <div class="media-options">
                 <a href="#" class="field facebook">
-                    <i class='bx bxl-facebook facebook-icon'></i>
-                    <span>Login with Facebook</span>
+                    <img src="https://i.postimg.cc/BvRFsXWZ/fb.png" alt="" class="google-img"/>
+                     <span>Login with Facebook</span>
                 </a>
             </div>
             <div class="media-options">
                 <a href="#" class="field google">
-                    <img src="#" alt="" class="google-img"/>
+                    <img src="https://i.postimg.cc/wThYQPxw/g.png" alt="" class="google-img"/>
                     <span>Login with Google</span>
                 </a>
             </div>
